@@ -1,0 +1,68 @@
+/* عمومي ترتیب */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* د هرې برخې لپاره یو ځینې ترتیب */
+h1, h2 {
+  color: #333;
+  text-align: center;
+}
+
+/* د ان پټ فورمې لپاره سټایل */
+input[type="text"] {
+  padding: 10px;
+  width: 80%;
+  max-width: 300px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* د کاروونکي معلوماتو لپاره */
+#user-info {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 300px;
+}
+
+#user-info p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+#user-info p strong {
+  color: #555;
+}
+
+#referral-section {
+  margin-top: 20px;
+}
